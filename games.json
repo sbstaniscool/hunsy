@@ -34,6 +34,10 @@
       "name": "Basket Random",
       "image": "assets/download (16).jpg",
       "url": "https://raw.githack.com/galacticnetwork/3kh0-assets/main/basket-random/index.html"
-    }
+    },
+    {
+      "name": "Duck Life 1",
+      "image": "assets/d.jpg",
+      "url": "https://raw.githack.com/BinBashBanana/gfiles/master/gfiles/flash/index.html?swf=ducklife.swf"
   ]
 }
