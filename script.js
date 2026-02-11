@@ -3,7 +3,7 @@ const grid = document.getElementById("gameGrid");
 const search = document.getElementById("search");
 let allGames = [];
 
-// --- Fetch games from JSON ---
+// --- Fetch games ---
 fetch("games.json")
   .then(res => res.json())
   .then(data => {
@@ -11,7 +11,7 @@ fetch("games.json")
     render(allGames);
   });
 
-// --- Render games in grid ---
+// --- Render games ---
 function render(games) {
   grid.innerHTML = "";
 
@@ -34,7 +34,7 @@ function render(games) {
   });
 }
 
-// --- Search bar + bear Easter egg ---
+// --- Search + bear Easter egg ---
 search.addEventListener("input", () => {
   const q = search.value.toLowerCase();
 
