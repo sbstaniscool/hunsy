@@ -70,15 +70,15 @@
         "image": "assets/1on1.jpg",
         "url": "https://raw.githack.com/BinBashBanana/gfiles/master/gfiles/flash/index.html?swf=1on1soccer.swf"
      },
-     {
-        "name": "Geo Dash",
-        "image": "assets/geo.jpg",
-        "url": "https://raw.githack.com/BinBashBanana/gfiles/master/gfiles/html5/geometrydash/index.html"
-     },
-     {
-        "name": "FNaF Help Wanted",
-        "image": "assets/image.webp"
-        "url": "https://turbowarp.org/326343132/embed"
-     }
+    {
+       "name": "Geo Dash",
+       "image": "assets/geo.jpg",
+       "url": "https://raw.githack.com/BinBashBanana/gfiles/master/gfiles/html5/geometrydash/index.html"
+    },
+    {
+       "name": "FNaF Help Wanted",
+       "image": "assets/image.webp",
+       "url": "https://turbowarp.org/326343132/embed"
+    }
   ]
 }
