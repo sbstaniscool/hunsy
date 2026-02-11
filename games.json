@@ -24,6 +24,11 @@
       "name": "Retro Bowl",
       "image": "assets/rb.png",
       "url": "https://htmlxm.github.io/h/retro-bowl"
+    },
+    {
+      "name": "Soccer Dash",
+      "image": "asset/sd",
+      "url": "https://cdn.vietdp.com/file/vietdp-games/games/t52025/soccer-dash/index.html"
     }
   ]
 }
