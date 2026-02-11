@@ -69,6 +69,11 @@
         "name": "1 on 1 Soccer",
         "image": "1on1.jpg",
         "url": "https://raw.githack.com/BinBashBanana/gfiles/master/gfiles/flash/index.html?swf=1on1soccer.swf"
+     },
+     {
+        "name": "Geo Dash",
+        "image": "geo.jpg",
+        "url": "https://raw.githack.com/BinBashBanana/gfiles/master/gfiles/html5/geometrydash/index.html"
      }
   ]
 }
