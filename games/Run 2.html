@@ -1,22 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Run 2</title>
-  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
-      background: black;
+      background: #111;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
+
+    #game-container {
+      width: 800px;
+      height: 600px;
+    }
   </style>
 </head>
 <body>
 
-  <embed src=".../assets/swf/Run2.swf" width="1000" height="600">
+  <div id="game-container"></div>
+
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+
+    window.addEventListener("load", () => {
+      const ruffle = window.RufflePlayer.newest();
+      const player = ruffle.createPlayer();
+      document.getElementById("game-container").appendChild(player);
+
+      // 🔥 THIS IS THE IMPORTANT FIX
+      player.load("/assets/swf/Run2.swf");
+    });
+  </script>
 
 </body>
 </html>
