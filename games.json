@@ -99,6 +99,11 @@
         "name": "Chess",
         "image": "assets/chess.png",
         "url": "gfiles/html5/chess"
+     },
+     {
+        "name": "Duck Life 2",
+        "image": "assets/d12.png",
+        "url": "games/index.html"
      }
   ]
 }
