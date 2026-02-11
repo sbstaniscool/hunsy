@@ -17,12 +17,12 @@
     },
     {
       "name": "FNaF",
-      "image": "bear2.jpg",
+      "image": "assets/bear2.jpg",
       "url": "https://run3.io/popgame/fnaf/fnaf1/"
     },
     {
       "name": "Retro Bowl",
-      "image": "rb.png",
+      "image": "assets/rb.png",
       "url": "https://htmlxm.github.io/h/retro-bowl"
     }
   ]
