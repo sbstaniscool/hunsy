@@ -27,8 +27,13 @@
     },
     {
       "name": "Soccer Dash",
-      "image": "asset/sd.png",
+      "image": "assets/sd.png",
       "url": "https://cdn.vietdp.com/file/vietdp-games/games/t52025/soccer-dash/index.html"
+    },
+    {
+      "name": "Basket Random",
+      "image": "assets/download (16).jpg",
+      "url": "https://raw.githack.com/galacticnetwork/3kh0-assets/main/basket-random/index.html"
     }
   ]
 }
