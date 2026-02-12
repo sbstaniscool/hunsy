@@ -114,6 +114,11 @@
       "name": "Stickman Bank Guy",
       "image": "assets/stick.jpg",
       "url": "games/stickbtb.html"
+    },
+    {
+      "name": "1",
+      "image": "games/1/meta/apple-touch-icon.png",
+      "url": "games/1/index.html"
     }
   ]
 }
