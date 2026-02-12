@@ -130,11 +130,6 @@
       "name": "FNAF 1 (WORKING)",
       "image": "assets/bear2.jpg",
       "url": "games/fnaf1/index.html"
-    },
-    {
-      "name": "1v1.lol",
-      "image": "assets/1v1lol.jpg",
-      "url": "http://raw.githack.com/Nailington/3kh0-assets/blob/fixy/1v1lol/index.html"
     }
   ]
 }
