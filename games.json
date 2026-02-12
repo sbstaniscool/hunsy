@@ -122,7 +122,7 @@
     },
     {
       "name": "Cluster Rush",
-      "image": "assets/cr32.png"
+      "image": "assets/cr32.png",
       "url": "games/clusterrush/game.html"
     }
   ]
