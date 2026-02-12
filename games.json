@@ -113,7 +113,7 @@
     {
       "name": "Stickman Bank Guy",
       "image": "assets/stick.jpg",
-      "url": "assets/swf/breakingthebank.swf"
+      "url": "games/stickbtb.html"
     }
   ]
 }
