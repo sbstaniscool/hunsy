@@ -104,6 +104,11 @@
         "name": "Duck Life 2",
         "image": "assets/d12.png",
         "url": "games/index.html"
+     },
+     {
+        "name": "1v1.lol"
+        "image": "assets/1v1lol.jpg"
+        "url": "games/1v1"
      }
   ]
 }
