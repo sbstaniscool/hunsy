@@ -125,11 +125,6 @@
       "name": "Super Mario 63",
       "image": "assets/flash_supermario63_screenshot.png",
       "url": "games/sm63.html"
-    },
-    {
-      "name": "FNAF",
-      "image": "/assets/bear2.jpg",
-      "url": "/games/fnaf1/index.html"
     }
   ]
 }
