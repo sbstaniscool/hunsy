@@ -83,7 +83,7 @@
     {
       "name": "Run 2",
       "image": "assets/r2.png",
-      "url": "https://example.com/games/Run%202.html"
+      "url": "/games/Run%202.html"
     },
     {
       "name": "Bloons TD 2",
@@ -98,17 +98,17 @@
     {
       "name": "Chess",
       "image": "assets/chess.png",
-      "url": "https://example.com/gfiles/html5/chess"
+      "url": "/gfiles/html5/chess"
     },
     {
       "name": "Duck Life 2",
       "image": "assets/d12.png",
-      "url": "https://example.com/games/index.html"
+      "url": "/games/index.html"
     },
     {
       "name": "1v1.lol",
       "image": "assets/1v1lol.jpg",
-      "url": "https://example.com/games/1v1-lol"
+      "url": "/games/1v1-lol"
     },
     {
       "name": "Stickman Bank Guy",
