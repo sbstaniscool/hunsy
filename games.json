@@ -128,8 +128,8 @@
     },
     {
       "name": "FNAF 1 (WORKING)",
-      "image": "assets/bear2.jpg",
-      "url": "games/fnaf1/index.html"
+      "image": "/assets/bear2.jpg",
+      "url": "/games/fnaf1/index.html"
     }
   ]
 }
