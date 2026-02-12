@@ -4,19 +4,21 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   transition: background 0.3s, color 0.3s;
+  position: relative;
+  overflow: hidden; /* for particles */
 }
 
-body.dark { background: #0b0b0b; color: #e0d7ff; }
-body.normal { background: #f4f4f4; color: #333; }
+/* --- Dark / Normal Mode --- */
 body.dark { 
-  background: #0b0b0b;   /* black background */
-  color: #e0d7ff;         /* text color for dark mode */
+  background: linear-gradient(135deg, #0d0015, #3c004d); /* purple-black gradient */
+  color: #e0d7ff;         
 }
 
 body.normal { 
-  background: #f4f4f4;    /* light background */
+  background: linear-gradient(135deg, #e0d7ff, #b784ff); /* light purple gradient */
   color: #333;
 }
+
 /* --- Themes --- */
 body.purpleBlack .top h1 { color: #b784ff; }
 body.blueBlack .top h1 { color: #7fd1ff; }
@@ -27,6 +29,8 @@ body.greenBlack .top h1 { color: #7fff7f; }
 .top {
   padding: 30px;
   text-align: center;
+  position: relative;
+  z-index: 2; /* above particles */
 }
 
 .top h1 { margin: 0; font-size: 42px; }
@@ -40,6 +44,8 @@ body.greenBlack .top h1 { color: #7fff7f; }
   background: #1a1a1a;
   color: inherit;
   outline: none;
+  position: relative;
+  z-index: 2;
 }
 
 /* --- Game Grid --- */
@@ -48,6 +54,8 @@ body.greenBlack .top h1 { color: #7fff7f; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .game {
@@ -100,6 +108,7 @@ body.greenBlack .top h1 { color: #7fff7f; }
   display: none;
   width: 220px;
   font-size: 14px;
+  z-index: 1000;
 }
 
 #settingsPanel.show { display: block; }
@@ -116,4 +125,29 @@ body.greenBlack .top h1 { color: #7fff7f; }
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
+}
+
+/* --- Particle Background --- */
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1; /* behind content */
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.3);
+  animation: float 10s infinite linear;
+  pointer-events: none;
+}
+
+@keyframes float {
+  0% { transform: translateY(100vh) translateX(0) scale(1); opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { transform: translateY(-100vh) translateX(50px) scale(1.2); opacity: 0; }
 }
