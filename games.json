@@ -88,12 +88,12 @@
     {
       "name": "Bloons TD 2",
       "image": "assets/ball2.jpg",
-      "url": "https://example.com/games/Bloon.html"
+      "url": "/games/Bloon.html"
     },
     {
       "name": "Minecraft 1.8.8",
       "image": "assets/mine.jpg",
-      "url": "https://example.com/games/eaglercraft.html"
+      "url": "/games/eaglercraft.html"
     },
     {
       "name": "Chess",
