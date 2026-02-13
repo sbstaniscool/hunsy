@@ -139,6 +139,11 @@
       "name": "Blackjack",
       "image": "jb.jpg",
       "url": "games/blackjack/index.html"
+    },
+    {
+      "name": "Mario Combat",
+      "image": "mc.jpg",
+      "games/mc.html"
     }
   ]
 }
