@@ -124,6 +124,11 @@
       "name": "Cluster Rush",
       "image": "assets/cr32.png",
       "url": "games/clusterrush/game.html"
+    },
+    {
+      "name": "Duck Life 3 EVOED",
+      "image": "dl3.jpg",
+      "url": "games/dl3.html"
     }
   ]
 }
