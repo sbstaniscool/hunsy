@@ -134,6 +134,11 @@
       "name": "Super Mario Kart (FLASH)",
       "image": "assets/mkf.jpg",
       "url": "games/mkf.html"
+    },
+    {
+      "name": "Blackjack",
+      "image": "jb.jpg",
+      "url": "games/blackjack/index.html"
     }
   ]
 }
