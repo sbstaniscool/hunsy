@@ -151,3 +151,38 @@ body.greenBlack .top h1 { color: #7fff7f; }
   50% { opacity: 0.5; }
   100% { transform: translateY(-100vh) translateX(50px) scale(1.2); opacity: 0; }
 }
+
+/* ===== Custom Purple/Black Scrollbar ===== */
+
+/* Chrome, Edge, Safari, Opera */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0b1a;
+  border-left: 1px solid #3a2558;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #e0d7ff, #b39ddb, #7e57c2);
+  border-radius: 6px;
+  border: 3px solid #0f0b1a;
+  box-shadow: 0 0 10px rgba(179, 157, 219, 0.6);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #f1ebff, #d1c4e9, #9575cd);
+  box-shadow: 0 0 14px rgba(179, 157, 219, 0.9);
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #9575cd #0f0b1a;
+}
+
+/* Always show scrollbar */
+html {
+  overflow-y: scroll;
+}
