@@ -142,8 +142,8 @@
     },
     {
       "name": "Mario Combat",
-      "image": "mc.jpg",
-      "games/mc.html"
+      "image": "assets/mc.jpg",
+      "url": "games/mc.html"
     }
   ]
 }
