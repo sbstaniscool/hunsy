@@ -129,6 +129,11 @@
       "name": "Duck Life 3 EVOED",
       "image": "dl3.jpg",
       "url": "games/dl3.html"
+    },
+    {
+      "name": "Super Mario Kart (FLASH)",
+      "image": "assets/mkf.jpg",
+      "url": "games/mkf.html"
     }
   ]
 }
