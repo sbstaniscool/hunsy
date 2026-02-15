@@ -189,6 +189,11 @@
     "name": "Troll Face Quest",
     "image": "assets/trollman.jpg",
     "url": "games/trollface.html"
+   },
+   {
+    "name": "Rocket Soccer",
+    "image": "3.jpg",
+    "url": "games/rocket/index.html"
    }
   ]
 }
