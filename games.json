@@ -167,12 +167,12 @@
    },
    {
     "name": "Smash Karts",
-    "image": "smk.webp",
+    "image": "assets/smk.webp",
     "url": "games/smashkarts/index.html"
    },
    {
     "name": "Osu!",
-    "image": "osu.png",
+    "image": "assets/osu.png",
     "url": "games/osu!/index.html"
    }
   ]
