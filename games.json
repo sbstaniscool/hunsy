@@ -1,5 +1,10 @@
  {
   "games": [
+   {
+    "name": "Request Game",
+    "image": "form.png",
+    "url": "https://forms.gle/EZVMjxYCAK27ccB37"
+   },
     {
       "name": "There Is No Game",
       "image": "assets/game1.png",
