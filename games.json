@@ -194,6 +194,11 @@
     "name": "Rocket Soccer",
     "image": "assets/3.jpg",
     "url": "games/rocket/index.html"
+   },
+   {
+    "name": "Amoung Us",
+    "image": "agu.jpg",
+    "url": "games/rocket/index.html"
    }
   ]
 }
