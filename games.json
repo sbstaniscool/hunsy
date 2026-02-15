@@ -159,6 +159,11 @@
       "name": "The Password Game",
       "image": "assets/pg.png",
       "url": "games/passwordgame/index.html"
-    }
+    },
+   {
+    "name": "Yohoho.io",
+    "image": "assets/yhhi.jpg",
+    "url": "games/yohoho/index.html"
+   }
   ]
 }
