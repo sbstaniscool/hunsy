@@ -179,6 +179,11 @@
     "name": "GTA 6",
     "image": "assets/gta6.png",
     "url": "assets/gta6.mov"
+   },
+   {
+    "name": "Vex 7",
+    "image": "assets/vex.jpg",
+    "url": "vex7/index.html"
    }
   ]
 }
