@@ -1,4 +1,4 @@
-{
+ {
   "games": [
     {
       "name": "There Is No Game",
@@ -149,6 +149,11 @@
       "name": "Sandboxels",
       "image": "assets/sb.jpg",
       "url": "games/sandboxels/index.html"
+    },
+    {
+      "name": "The Password Game",
+      "image": "assets/pg.png",
+      "url": "games/passwordgame/index.html"
     }
   ]
 }
