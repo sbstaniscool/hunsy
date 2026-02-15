@@ -164,6 +164,11 @@
     "name": "Yohoho.io",
     "image": "assets/yhhi.jpg",
     "url": "games/yohoho/index.html"
+   },
+   {
+    "name": "Smash Karts",
+    "image": "smk.webp",
+    "url": "67ormake711"
    }
   ]
 }
