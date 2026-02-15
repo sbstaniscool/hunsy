@@ -184,6 +184,11 @@
     "name": "Vex 7",
     "image": "assets/vex.jpg",
     "url": "vex7/index.html"
+   },
+   {
+    "name": "Troll Face Quest",
+    "image": "assets/trollman.jpg",
+    "url": "games/trollface.html"
    }
   ]
 }
