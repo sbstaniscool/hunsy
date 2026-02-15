@@ -144,6 +144,11 @@
       "name": "Mario Combat",
       "image": "assets/mc.jpg",
       "url": "games/mc.html"
+    },
+    {
+      "name": "Sandboxels",
+      "image": "assets/sb.jpg",
+      "url": "games/sandboxels/index.html"
     }
   ]
 }
