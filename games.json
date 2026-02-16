@@ -214,6 +214,11 @@
     "name": "Sonic",
     "image": "assets/sonic.jpg",
     "url": "games/sonic.html"
+   },
+   {
+    "name": "Temple Run",
+    "image": "assets/re.jpg",
+    "url": "games/tr/index.html"
    }
   ]
 }
