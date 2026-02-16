@@ -224,6 +224,11 @@
     "name": "Motor X3M",
     "image": "assets/motor.jpg",
     "url": "games/motorxd/index.html"
+   },
+   {
+    "name": "Jack Smith",
+    "image": "assets/jas.jpg",
+    "url": "games/js.html"
    }
   ]
 }
