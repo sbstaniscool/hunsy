@@ -199,6 +199,11 @@
     "name": "Amoung Us",
     "image": "assets/agu.jpg",
     "url": "games/rocket/index.html"
+   },
+   {
+    "name": "Bob the Robber 2!",
+    "image": "assets/btr2.jpg",
+    "url": "games/bobtherobber2/index.html"
    }
   ]
 }
