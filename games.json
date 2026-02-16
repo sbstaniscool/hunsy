@@ -127,7 +127,7 @@
     },
     {
       "name": "Cluster Rush",
-      "image": "assets/cr32.png",
+      "image": "assets/cr45.png",
       "url": "games/clusterrush/game.html"
     },
     {
@@ -204,6 +204,11 @@
     "name": "Bob the Robber 2!",
     "image": "assets/btr2.jpg",
     "url": "games/bobtherobber2/index.html"
+   },
+   {
+    "name": "Cluster Rush (WORKING)",
+    "image": "assets/cr45.jpg",
+    "url": "games/clusterrushworking/index.html"
    }
   ]
 }
