@@ -219,6 +219,11 @@
     "name": "Temple Run",
     "image": "assets/re.jpg",
     "url": "games/tr/index.html"
+   },
+   {
+    "name": "Motor X3M",
+    "image": "assets/motor.jpg",
+    "url": "games/motorxd/index.html"
    }
   ]
 }
