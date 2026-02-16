@@ -229,6 +229,11 @@
     "name": "Jack Smith",
     "image": "assets/jas.jpg",
     "url": "games/js.html"
+   },
+   {
+    "name": "Rooftop Sniper",
+    "image": "assets/rts.jpg",
+    "url": "games/robber/index.html"
    }
   ]
 }
