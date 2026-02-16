@@ -209,6 +209,11 @@
     "name": "Cluster Rush (WORKING)",
     "image": "assets/cr45.jpg",
     "url": "games/clusterrushworking/index.html"
+   },
+   {
+    "name": "Sonic",
+    "image": "assets/sonic.jpg",
+    "url": "games/sonic.html"
    }
   ]
 }
