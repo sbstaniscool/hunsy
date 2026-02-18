@@ -1,16 +1,10 @@
 {
   "songs": [
     {
-      "name": "Cool Background Song",
-      "artist": "Arud Beats",
-      "image": "albums/cover1.jpg",
-      "audio": "music/song1.mp3"
-    },
-    {
-      "name": "Late Night Coding",
-      "artist": "Lo-Fi Vibes",
-      "image": "albums/cover2.jpg",
-      "audio": "music/song2.mp3"
+      "name": "What She Saying",
+      "artist": "Lil Uzi Vert",
+      "image": "assets/maxresdefault.jpg",
+      "audio": "assets/music/What You Saying_spotdown.org.mp3"
     }
   ]
 }
