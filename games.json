@@ -45,6 +45,16 @@
       "image": "assets/d.jpg",
       "url": "https://raw.githack.com/BinBashBanana/gfiles/master/gfiles/flash/index.html?swf=ducklife.swf"
     },
+     {
+      "name": "Duck Life 2",
+      "image": "assets/d12.png",
+      "url": "/games/index.html"
+    },
+    {
+      "name": "Duck Life 3 EVOED",
+      "image": "assets/dl3.jpg",
+      "url": "games/dl3.html"
+    },
     {
       "name": "Impossible Quiz",
       "image": "assets/q.jpg",
@@ -106,11 +116,6 @@
       "url": "/gfiles/html5/chess"
     },
     {
-      "name": "Duck Life 2",
-      "image": "assets/d12.png",
-      "url": "/games/index.html"
-    },
-    {
       "name": "1v1.lol",
       "image": "assets/1v1lol.jpg",
       "url": "http://raw.githack.com/Nailington/3kh0-assets/fixy/1v1lol/index.html"
@@ -129,11 +134,6 @@
       "name": "Cluster Rush",
       "image": "assets/cr45.png",
       "url": "games/clusterrush/game.html"
-    },
-    {
-      "name": "Duck Life 3 EVOED",
-      "image": "assets/dl3.jpg",
-      "url": "games/dl3.html"
     },
     {
       "name": "Super Mario Kart (FLASH)",
@@ -234,6 +234,11 @@
     "name": "Rooftop Sniper",
     "image": "assets/rts.jpg",
     "url": "games/robber/index.html"
+   },
+   {
+    "name": "Snow Rider 3D",
+    "image": "assets/sr3d.jpg",
+    "url": "games/snowrider3d/index.html"
    }
   ]
 }
