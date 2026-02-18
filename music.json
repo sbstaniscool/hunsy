@@ -1,0 +1,16 @@
+{
+  "songs": [
+    {
+      "name": "Cool Background Song",
+      "artist": "Arud Beats",
+      "image": "albums/cover1.jpg",
+      "audio": "music/song1.mp3"
+    },
+    {
+      "name": "Late Night Coding",
+      "artist": "Lo-Fi Vibes",
+      "image": "albums/cover2.jpg",
+      "audio": "music/song2.mp3"
+    }
+  ]
+}
