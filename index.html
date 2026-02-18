@@ -125,6 +125,34 @@
     function prevSong() { loadSong((current-1+songs.length) % songs.length); audio.play(); }
     volume.oninput = () => audio.volume = volume.value;
   </script>
+<script>
+// --- Password System ---
+const PASSWORD = "doodledoodlepencilfart";
+const pwOverlay = document.getElementById("pwOverlay");
+const pwInput = document.getElementById("pwInput");
+const pwSubmit = document.getElementById("pwSubmit");
+const pwError = document.getElementById("pwError");
+
+// Check if password is already stored
+if (localStorage.getItem("hunsyPassword") === PASSWORD) {
+  pwOverlay.style.display = "none";
+}
+
+// Submit password
+pwSubmit.addEventListener("click", () => {
+  if (pwInput.value === PASSWORD) {
+    localStorage.setItem("hunsyPassword", PASSWORD);
+    pwOverlay.style.display = "none";
+  } else {
+    pwError.style.display = "block";
+  }
+});
+
+// Optional: Enter key
+pwInput.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") pwSubmit.click();
+});
+</script>
 
 </body>
 </html>
