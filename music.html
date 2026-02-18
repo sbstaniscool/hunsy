@@ -2,76 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hunsy 🐻 | BG Music</title>
+  <title>BG Music</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body class="dark purpleBlack">
 
-  <!-- Particle Background -->
-  <div class="particles"></div>
+<header class="top">
+  <h1>BG Music 🎵</h1>
+  <nav class="nav">
+    <a href="index.html">🏠 Home</a>
+    <a href="music.html">🎵 BG Music</a>
+  </nav>
+</header>
 
-  <!-- Header -->
-  <header class="top">
-    <h1>Hunsy 🐻</h1>
-
-    <nav class="nav">
-      <a href="index.html">🏠 Home</a>
-      <a href="music.html">🎵 BG Music</a>
-    </nav>
-  </header>
-
-  <!-- MUSIC PLAYER -->
-  <main class="music-player">
-    <img id="cover" class="album">
-    <h2 id="title"></h2>
-    <p id="artist"></p>
-
-    <audio id="audio"></audio>
-
-    <div class="controls">
-      <button onclick="prev()">⏮</button>
-      <button onclick="playPause()">▶ / ⏸</button>
-      <button onclick="next()">⏭</button>
-    </div>
-
-    <input type="range" min="0" max="1" step="0.01"
-           onchange="audio.volume=this.value">
-  </main>
-
-<script>
-let songs = [];
-let index = 0;
-const audio = document.getElementById("audio");
-
-fetch("music.json")
-  .then(r => r.json())
-  .then(d => {
-    songs = d.songs;
-    loadSong(0);
-  });
-
-function loadSong(i) {
-  index = i;
-  const s = songs[i];
-  cover.src = s.image;
-  title.innerText = s.name;
-  artist.innerText = s.artist;
-  audio.src = s.audio;
-}
-
-function playPause() {
-  audio.paused ? audio.play() : audio.pause();
-}
-function next() {
-  loadSong((index + 1) % songs.length);
-  audio.play();
-}
-function prev() {
-  loadSong((index - 1 + songs.length) % songs.length);
-  audio.play();
-}
-</script>
+<main style="text-align:center;margin-top:60px;">
+  <p>The music player is running in the background.</p>
+  <p>Use the floating controls at the bottom of the screen.</p>
+</main>
 
 </body>
 </html>
