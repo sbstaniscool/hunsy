@@ -2,23 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>BG Music</title>
+  <title>Hunsy 🐻 - Music</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body class="dark purpleBlack">
 
-<header class="top">
-  <h1>BG Music 🎵</h1>
-  <nav class="nav">
-    <a href="index.html">🏠 Home</a>
-    <a href="music.html">🎵 BG Music</a>
-  </nav>
-</header>
+  <!-- Music Player -->
+  <div class="bg-player" id="bgPlayer">
+    <img id="bgCover" src="albums/cover.jpg" alt="Album Cover">
+    <div>
+      <div id="bgTitle">Song Name</div>
+      <div id="bgArtist">Artist</div>
+    </div>
+    <button id="prevBtn">⏮️</button>
+    <button id="playBtn">▶️</button>
+    <button id="nextBtn">⏭️</button>
+    <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">
+  </div>
 
-<main style="text-align:center;margin-top:60px;">
-  <p>The music player is running in the background.</p>
-  <p>Use the floating controls at the bottom of the screen.</p>
-</main>
+  <!-- Audio Element -->
+  <audio id="audio"></audio>
 
+  <script src="music.js"></script>
 </body>
 </html>
