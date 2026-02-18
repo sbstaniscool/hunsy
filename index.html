@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-
 <body class="dark purpleBlack">
 
   <!-- Particle Background -->
@@ -62,26 +61,68 @@
     <button id="closeSettings">✖ Close</button>
   </div>
 
+  <!-- GLOBAL BACKGROUND MUSIC PLAYER -->
+  <div id="bgPlayer" class="bg-player">
+    <img id="bgCover" src="" alt="Album cover">
+    <div>
+      <div id="bgTitle">No song playing</div>
+      <div id="bgArtist"></div>
+    </div>
+    <button onclick="prevSong()">⏮</button>
+    <button onclick="togglePlay()">▶</button>
+    <button onclick="nextSong()">⏭</button>
+    <input type="range" min="0" max="1" step="0.01" id="volume" value="0.5">
+    <audio id="audio"></audio>
+  </div>
+
   <!-- Scripts -->
   <script src="script.js"></script>
 
-  <!-- Particle Script (UNCHANGED) -->
+  <!-- Particle Script -->
   <script>
     const particlesContainer = document.querySelector('.particles');
     const colors = ['#ffffff', '#d1c4e9', '#b39ddb', '#e0d7ff'];
-
     for (let i = 0; i < 60; i++) {
       const particle = document.createElement('div');
       particle.classList.add('particle');
-      particle.style.width = `${Math.random() * 8 + 4}px`;
+      particle.style.width = `${Math.random()*8+4}px`;
       particle.style.height = particle.style.width;
-      particle.style.left = `${Math.random() * 100}vw`;
-      particle.style.animationDuration = `${Math.random() * 10 + 5}s`;
-      particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+      particle.style.left = `${Math.random()*100}vw`;
+      particle.style.animationDuration = `${Math.random()*10+5}s`;
+      particle.style.background = colors[Math.floor(Math.random()*colors.length)];
       particle.style.opacity = Math.random();
-      particle.style.animationDelay = `${Math.random() * 5}s`;
+      particle.style.animationDelay = `${Math.random()*5}s`;
       particlesContainer.appendChild(particle);
     }
+  </script>
+
+  <!-- Background Music Script -->
+  <script>
+    let songs = [];
+    let current = 0;
+    const audio = document.getElementById("audio");
+    const cover = document.getElementById("bgCover");
+    const titleEl = document.getElementById("bgTitle");
+    const artistEl = document.getElementById("bgArtist");
+    const volume = document.getElementById("volume");
+
+    fetch("music.json")
+      .then(r => r.json())
+      .then(d => { songs = d.songs; loadSong(0); });
+
+    function loadSong(i) {
+      current = i;
+      const s = songs[i];
+      audio.src = s.audio;
+      cover.src = s.image;
+      titleEl.textContent = s.name;
+      artistEl.textContent = s.artist;
+    }
+
+    function togglePlay() { audio.paused ? audio.play() : audio.pause(); }
+    function nextSong() { loadSong((current+1) % songs.length); audio.play(); }
+    function prevSong() { loadSong((current-1+songs.length) % songs.length); audio.play(); }
+    volume.oninput = () => audio.volume = volume.value;
   </script>
 
 </body>
